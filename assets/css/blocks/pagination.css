@@ -14,18 +14,22 @@
   display: inline-block;
 }
 .pagination__pages-list {
+  display: inline-block;
   padding: 0;
   margin: 0;
 }
 .pagination__pages-list li {
   display: inline-block;
-  margin: 0;
+  /* margin: 0;
+  padding: 0; */
 }
-.pagination__pages-item a{
+
+.pagination__pages-link{
+  display: inline-block;
   color: #000;
   font-weight: 700;
   text-decoration: none;
-  padding: 5px 10px;
+  padding: 8px 10px;
   border-radius: 3px;
 }
 .pagination .pagination__pages-link_active {
@@ -33,13 +37,11 @@
   color: #fff;
 }
 .pagination__pages-list li:last-child {
-  margin: 0;
+  margin-right: 18px;
 }
-.pagination__pages-list li:first-child::before {
-  content: url(../../img/icons/arrow_back.png);
-  margin-right: 15px;
+.pagination__arrow {
+  display: inline-block;
 }
-.pagination__pages-list li:last-child::after {
-  content: url(../../img/icons/arrow_forward.png);
-  margin-left: 15px;
+.pagination__arrow--prev  {
+  margin-right: 18px;
 }

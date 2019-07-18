@@ -1,8 +1,7 @@
 .contacts {
-  position: absolute;
-  top: 21px;
-  right: 22px;
+  display: inline-block;
   text-align: right;
+  flex: 1 1 198px;
 }
 
 .contacts__phone {

@@ -1,8 +1,18 @@
 .header {
+  min-height: 77px;
   background: #27273e;
   color: #fff;
+  padding-top: 13px;
+  padding-bottom: 13px;
 }
 .header__container {
-  height: 77px;
-  position: relative;
+  min-width: 1060px;
+  display: flex;
+  align-items: center;
+
+}
+
+.header__link {
+  display: inline-block;
+  text-align: left;
 }

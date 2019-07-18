@@ -2,34 +2,34 @@
   margin-bottom: 93px;
 }
 .features__content {
+  display: flex;
+  justify-content: space-evenly;
   margin: 0 auto;
   margin-bottom: 91px;
   padding: 0;
 }
 .features__item {
   display: inline-block;
-  width: 207px;
   margin-right: 68px;
 }
 
 .features__icon {
+  display: inline-block;
   width: 72px;
   height: 72px;
-  margin-left: 64px;
-  margin-right: 62px;
   margin-bottom: 35px;
   background-color: #27273e;
   border-radius: 50%;
   background-repeat: no-repeat;
   background-position: center;
 }
-.features__icon-1 {
+.features__icon--flower {
   background-image: url(../../img/icons/flower.png);
 }
-.features__icon-2 {
+.features__icon--star {
   background-image: url(../../img/icons/mark-as-favorite-star.png);
 }
-.features__icon-3 {
+.features__icon--pallete {
   background-image: url(../../img/icons/painter-palette.png);
 }
 .features__title {
@@ -40,14 +40,32 @@
   text-transform: uppercase;
   letter-spacing: 2.64px;
 }
+
+.features__desc {
+  display: block;
+}
+
 .features__text {
   font-size: 18px;
   font-weight: 300;
+  line-height: 30px;
 }
+
+.features__text-area {
+  display: block;
+  margin-bottom: 8px;
+}
+
 .features__text-list {
+  display: block;
   padding: 0;
   text-align: left;
 }
+
+.features__text-list li {
+  margin-bottom: 8px;
+}
+
 .features__text-list li::before {
   content: "•";
   color: #ec1e79;

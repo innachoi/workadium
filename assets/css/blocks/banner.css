@@ -1,8 +1,12 @@
 .banner {
   background: #27273e;
-  height: 369px;
   margin-bottom: 72px;
 }
+.banner__pic {
+  width: 1060px;
+}
+
 .banner__img {
-  width: 1100px;
+  display: block;
+  max-width: 100%;
 }

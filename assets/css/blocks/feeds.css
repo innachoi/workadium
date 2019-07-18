@@ -3,16 +3,20 @@
   margin: 0;
 }
 .feeds__item {
-  display: inline-block;
+  display: flex;
   margin-bottom: 57px;
 }
+.feeds__pic {
+  display: block;
+  margin-right: 20px;
+}
+
 .feeds__icon {
   width: 160px;
   height: 160px;
   border-radius: 50%;
-  float: left;
-  margin-right: 20px;
 }
+
 .feeds__desc {
   text-align: left;
 }
@@ -37,4 +41,8 @@
   font-weight: 300;
   font-size: 18px;
   margin-bottom: 20px;
+}
+
+.feeds__text-area {
+  line-height: 30px;
 }
