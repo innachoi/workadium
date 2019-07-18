@@ -1,0 +1,17 @@
+.sign {
+  position: absolute;
+  width: 257px;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 18px;
+  text-align: left;
+  left: 19px;
+  bottom: 15px;
+}
+.sign__text {
+  margin: 0;
+}
+.loftschool-link {
+  color: #fff;
+  font-weight: 700;
+}

@@ -1,0 +1,46 @@
+.menu__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: left;
+  margin-left: 20px;
+}
+.menu__list a.active {
+  color: #000;
+}
+.menu__item {
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 33px;
+}
+.menu__item-1::before {
+  content: url(../../img/icons/main_icon.png);
+  margin-right: 18px;
+  display: inline-block;
+}
+.menu__item-2::before {
+  content: url(../../img/icons/star_pink.png);
+  margin-right: 18px;
+  display: inline-block;
+}
+.menu__item-3::before {
+  content: url(../../img/icons/wallet-pink.png);
+  margin-right: 18px;
+  display: inline-block;
+}
+.menu__text {
+  font-size: 12px;
+  font-weight: bold;
+  color: #ec1e79;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.menu__text:hover {
+  color: #000;
+}
+.menu__item-2:hover::before {
+  content: url(../img/icons/star_hover.png);
+}
+.menu__item-3:hover::before {
+  content: url(../img/icons/wallet_hover.png);
+}

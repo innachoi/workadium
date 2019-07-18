@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  min-height: 100%;
+  font-family: "Gotham Pro", Arial, Helvetica, sans-serif;
+  font-style: normal;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+}
+.wrapper {
+  min-width: 1100px;
+}
+
+.container {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+ul li {
+  list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+button {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.sidebar, .page {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.sidebar {
+  width: 200px;
+}
+
+.page {
+  width: 900px;
+}

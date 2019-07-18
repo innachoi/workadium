@@ -1,0 +1,20 @@
+.contacts {
+  position: absolute;
+  top: 21px;
+  right: 22px;
+  text-align: right;
+}
+
+.contacts__phone {
+  color: #fff;
+  font-size: 21px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.contacts__schedule {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 700;
+  color: rgba(236, 30, 121, 0.7);
+  text-decoration: underline;
+}

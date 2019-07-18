@@ -1,0 +1,45 @@
+.pagination {
+  font-family: "roboto";
+  font-size: 14px;
+  margin: 0 auto;
+  margin-bottom: 78px;
+}
+.pagination__display {
+  display: inline-block;
+  font-weight: 300;
+  color: #656464;
+  margin-right: 20px;
+}
+.pagination__controls {
+  display: inline-block;
+}
+.pagination__pages-list {
+  padding: 0;
+  margin: 0;
+}
+.pagination__pages-list li {
+  display: inline-block;
+  margin: 0;
+}
+.pagination__pages-item a{
+  color: #000;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+.pagination .pagination__pages-link_active {
+  background-color: #27273e;
+  color: #fff;
+}
+.pagination__pages-list li:last-child {
+  margin: 0;
+}
+.pagination__pages-list li:first-child::before {
+  content: url(../../img/icons/arrow_back.png);
+  margin-right: 15px;
+}
+.pagination__pages-list li:last-child::after {
+  content: url(../../img/icons/arrow_forward.png);
+  margin-left: 15px;
+}

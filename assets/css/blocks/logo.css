@@ -1,0 +1,17 @@
+.logo {
+  width: 98px;
+  height: 51px;
+}
+
+.logo__header {
+  position: absolute;
+  top: 13px;
+  left: 19px;
+}
+
+.logo-footer {
+  position: absolute;
+  display: inline-block;
+  left: 499px;
+  bottom: 12px;
+}
