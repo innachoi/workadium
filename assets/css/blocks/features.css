@@ -4,7 +4,6 @@
 .features__content {
   display: flex;
   justify-content: space-evenly;
-  margin: 0 auto;
   margin-bottom: 91px;
   padding: 0;
 }

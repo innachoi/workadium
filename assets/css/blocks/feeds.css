@@ -4,21 +4,21 @@
 }
 .feeds__item {
   display: flex;
+  align-items: center;
   margin-bottom: 57px;
 }
 .feeds__pic {
-  display: block;
+  display: inline-block;
   margin-right: 20px;
-}
-
-.feeds__icon {
   width: 160px;
   height: 160px;
   border-radius: 50%;
+  overflow: hidden;
 }
 
 .feeds__desc {
   text-align: left;
+  flex: 1;
 }
 .feeds__date {
   font-family: "roboto";
