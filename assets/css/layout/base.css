@@ -14,6 +14,7 @@ body {
   height: 100%;
   font-family: "Gotham Pro", Arial, Helvetica, sans-serif;
   font-style: normal;
+  font-weight: 300;
   -webkit-font-smoothing: antialiased;
 }
 .wrapper {
@@ -48,6 +49,10 @@ button {
   cursor: pointer;
 }
 
+.maincontent {
+  margin-top: 43px;
+}
+
 .sidebar, .page {
   display: inline-block;
   vertical-align: top;
@@ -55,16 +60,16 @@ button {
 
 .sidebar {
   display: inline-block;
-  text-align: left;
-  min-width: 200px;
+  width: 17%;
 }
 
 .page {
-  display: inline-block;
-  width: 900px;
-  text-align: center;
+  display: flex;
+  flex-flow: column;
+  width: 83%;
 }
 
 img {
   max-width: 100%;
+  object-fit: cover;
 }

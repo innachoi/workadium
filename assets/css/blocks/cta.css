@@ -1,0 +1,29 @@
+.cta {
+  background: #27273e;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 36px;
+}
+
+.cta__container {
+  max-width: 1060px;
+  display: flex;
+  align-items: center;
+  padding: 48px 215px;
+  background-image: url(../../img/pattern_cta.png);
+  background-repeat: no-repeat;
+}
+
+.cta__text {
+  display: inline-block;
+  color: #fff;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 300;
+  margin: 0;
+}
+
+.cta__text-strong {
+  color: #ec1e79;
+  font-weight: 700;
+}

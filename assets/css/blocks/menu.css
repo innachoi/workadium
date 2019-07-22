@@ -1,45 +1,100 @@
 .menu__list {
   display: inline-block;
   margin: 0;
-  padding: 0;
+  padding: 0 35px;
   list-style: none;
   text-align: left;
 }
-.menu__list .menu--active {
-  color: #000;
-}
+
 .menu__item {
-  margin-bottom: 33px;
+  margin-bottom: 29px;
 }
 
-.menu__text {
+.menu__item.active .menu__link {
+  color: #000;
+}
+
+.menu__item.active .menu__icon::before {
+  opacity: 0;
+}
+
+.menu__item.active .menu__icon::after {
+  opacity: 1;
+}
+
+.menu__link {
   font-size: 12px;
   font-weight: bold;
   color: #ec1e79;
   text-transform: uppercase;
   text-decoration: none;
+  transition: color 0.2s;
 }
-.menu__text-1::before {
-  content: url(../../img/icons/main_icon.png);
-  margin-right: 18px;
-  display: inline-block;
+
+.menu__icon {
+  position: relative;
 }
-.menu__text-2::before {
-  content: url(../../img/icons/star_pink.png);
-  margin-right: 18px;
-  display: inline-block;
+
+.menu__icon::before, .menu__icon::after {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -33px;
+  background: url(../../img/icons/menu-icons_sprites.png) no-repeat;
 }
-.menu__text-3::before {
-  content: url(../../img/icons/wallet-pink.png);
-  margin-right: 18px;
-  display: inline-block;
+
+.menu__icon--main::before {
+  background-position: -17px -17px;
+  width: 20px;
+  height: 18px;
 }
-.menu__text:hover {
-  color: #000;
+
+.menu__icon--star::before {
+  background-position: -17px -215px;
+  width: 20px;
+  height: 18px;
 }
-.menu__text-2:hover::before {
-  content: url(../../img/icons/star_hover.png);
+
+.menu__icon--wallet::before {
+  background-position: -17px -115px;
+  width: 20px;
+  height: 18px;
 }
-.menu__text-3:hover::before {
-  content: url(../../img/icons/wallet_hover.png);
+
+.menu__icon--main::after {
+  background-position: -17px -66px;
+  width: 20px;
+  height: 18px;
+}
+
+.menu__icon--star::after {
+  background-position: -17px -267px;
+  width: 20px;
+  height: 18px;
+}
+
+.menu__icon--wallet::after {
+  background-position: -17px -165px;
+  width: 20px;
+  height: 18px;
+}
+
+.menu__item .menu__icon::after {
+  opacity: 0;
+  transition: 0.2s;
+}
+
+.menu__link:hover {
+ color: #000;
+ transition: 0.2s;
+}
+
+.menu__icon:hover::before {
+  opacity: 0;
+  transition: 0.2s;
+}
+
+.menu__icon:hover::after {
+  opacity: 1;
+  transition: 0.2s;
 }

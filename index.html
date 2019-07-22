@@ -13,7 +13,7 @@
     <div class="wrapper__content">
       <header class="header">
         <div class="container header__container">
-          <a href="https://innachoi.github.io/workadium/" class="link header__link"><img class="logo logo__header" src="assets/img/logo.svg" alt="Логотип Workadium" ></a>
+          <a href="./index.html" class="link header__link"><img class="logo logo__header" src="assets/img/logo.svg" alt="Логотип Workadium" ></a>
           <adress class="contacts">
             <a href="tel:+78000039210" class="contacts__phone">8 (800) 00-392-10</a>
             <div class="contacts__schedule">График работы</div>
@@ -28,18 +28,18 @@
         </div>
       </div>
       <div class="maincontent">
-        <div class="container">
+        <div class="container maincontent__container">
           <aside class="sidebar">
             <nav class="menu">
               <ul class="menu__list">
-                <li class="menu__item">
-                  <a href="#" class="menu__text menu__text-1 menu--active">Главная</a>
+                <li class="menu__item active">
+                  <a href="#" class="menu__link menu__icon menu__icon--main">Главная</a>
                 </li>
                 <li class="menu__item">
-                  <a href="#" class="menu__text menu__text-2">Отзывы</a>
+                  <a href="./comments.html" class="menu__link menu__icon menu__icon--star">Отзывы</a>
                 </li>
                 <li class="menu__item">
-                  <a href="#" class="menu__text menu__text-3">Тарифы</a>
+                  <a href="./prices.html" class="menu__link menu__icon menu__icon--wallet">Тарифы</a>
                 </li>
               </ul>
             </nav>
@@ -47,7 +47,7 @@
           <div class="page">
             <main class="page-content">
               <section class="features">
-                <h2 class="section-title">Особенности</h2>
+                <h2 class="features__main-title">Особенности</h2>
                 <ul class="features__content">
                   <li class="features__item">
                     <div class="features__icon features__icon--flower">
@@ -120,8 +120,8 @@
                   </li>
                 </ul>
               </section>
-              <section class="feeds">
-                <h2 class="section-title">Последние новости</h2>
+              <section class="feeds news">
+                <h2 class="feeds__main-title news__title">Последние новости</h2>
                 <ul class="feeds__list">
                   <li class="feeds__item">
                     <div class="feeds__pic">
@@ -129,16 +129,16 @@
                     </div>
                     <div class="feeds__desc">
                       <time class="feeds__date">
-                        <p>
+                        <p class="feeds__date-text">
                           12.10.2016
                         </p>
                       </time>
                       <h3 class="feeds__title">Чёрная дыра скидок!</h3>
-                      <div class="feeds__text">
+                      <article class="feeds__text">
                         <p class="feeds__text-area">
                           Ключевым технологическим партнером GrowUp является дата-центр Миран, расположенный всего лишь в 500 метрах от здания, а значит, скорость интернета будет стабильной в любое время суток. Коворкинг работает в формате 24/7. Используйте шкаф для хранения личных вещей.
                         </p>
-                      </div>
+                      </article>
                     </div>
                   </li>
                   <li class="feeds__item">
@@ -147,16 +147,16 @@
                     </div>
                     <div class="feeds__desc">
                       <time class="feeds__date">
-                        <p>
+                        <p class="feeds__date-text">
                           01.02.2016
                         </p>
                       </time>
                       <h3 class="feeds__title">Заражай друзей, получай призы!</h3>
-                      <div class="feeds__text">
+                      <article class="feeds__text">
                         <p class="feeds__text-area">
                           Быть частью сообщества сильных, грамотных и увлеченных своим делом профессионалов - вдохновляет выходить на новые уровни развития. Регулярно в коворкинге проводятся лекции, мастер-классы, встречи с инвесторами или менторами для резидентов. </h3>
                         </p>
-                      </div>
+                      </article>
                     </div>
                   </li>
                   <li class="feeds__item">
@@ -165,16 +165,16 @@
                     </div>
                     <div class="feeds__desc">
                       <time class="feeds__date">
-                        <p>
+                        <p class="feeds__date-text">
                           22.12.2015
                         </p>
                       </time>
                       <h3 class="feeds__title">Новое рабочее место для бизнесменов</h3>
-                      <div class="feeds__text">
+                      <article class="feeds__text">
                         <p class="feeds__text-area">
                           Для резидентов коворкинга оборудована не только рабочая зона, но и зона отдыха. Она включает в себя: кухонную зону и зону релакса. Каждый резидент может беспрепятственно пользоваться кухонным оборудованием: микроволновкой, чайником, кофе машиной, посудой.
                         </p>
-                      </div>
+                      </article>
                     </div>
                   </li>
                 </ul>
@@ -190,7 +190,7 @@
                 </a>
                 <ul class="pagination__pages-list">
                   <li class="pagination__pages-item">
-                    <a href="#" class="pagination__pages-link pagination__pages-link_active">1</a>
+                    <a href="#" class="pagination__pages-link pagination__pages-link--active">1</a>
                   </li>
                   <li class="pagination__pages-item">
                     <a href="#" class="pagination__pages-link">2</a>
@@ -211,7 +211,7 @@
                     <a href="#" class="pagination__pages-link">7</a>
                   </li>
                 </ul>
-                <a href="#" class="pagination__arrow">
+                <a href="#" class="pagination__arrow pagination__arrow--next">
                   <img src="./assets/img/icons/arrow_forward.png" alt="" class="pagination__arrow-img">
                 </a>
               </div>
@@ -235,25 +235,25 @@
           <h4 class="social__title">Наши социальные сети</h4>
           <ul class="social__preview">
             <li class="social__icon">
-              <a href="" class="social__link social__link--vk">
+              <a href="https://vk.com" class="social__link social__pic social__pic--vk">
                 <div class="social__link-img">
                 </div>
               </a>
             </li>
             <li class="social__icon">
-              <a href="" class="social__link social__link--fb">
+              <a href="https://ru-ru.facebook.com/" class="social__link social__pic social__pic--fb">
               </a>
             </li>
             <li class="social__icon">
-              <a href="" class="social__link social__link--google">
+              <a href="https://gmail.com" class="social__link social__pic social__pic--google">
               </a>
             </li>
             <li class="social__icon">
-              <a href="" class="social__link social__link--twitter">
+              <a href="https://twitter.com" class="social__link social__pic social__pic--twitter">
               </a>
             </li>
             <li class="social__icon">
-              <a href="" class="social__link social__link--mail">
+              <a href="#" class="social__link social__pic social__pic--mail">
               </a>
             </li>
           </ul>

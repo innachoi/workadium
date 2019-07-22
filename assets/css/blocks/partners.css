@@ -1,0 +1,35 @@
+.partners {
+  margin-bottom: 27px;
+}
+
+.partners__title {
+  display: block;
+  margin: 0;
+  margin-bottom: 52px;
+  font-size: 49px;
+  font-weight: bold;
+  text-align: left;
+  line-height: 38px;
+}
+
+.partners__list {
+  display: flex;
+  flex-flow: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.partners__pic {
+  width: 33%;
+  margin-bottom: 53px;
+}
+
+.partners__img {
+  filter: grayscale(100%);
+}
+
+.partners__img:hover {
+  cursor: pointer;
+  filter: none;
+  transition: filter 0.3s;
+}

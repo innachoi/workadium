@@ -16,4 +16,11 @@
   font-weight: 700;
   color: rgba(236, 30, 121, 0.7);
   text-decoration: underline;
+  transition: color 0.3s;
+}
+
+.contacts__schedule:hover {
+  cursor: pointer;
+  color: rgba(93, 209, 248, 0.7);
+  transition: color 0.3s;
 }

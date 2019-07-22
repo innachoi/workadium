@@ -1,0 +1,32 @@
+.breadcrumbs__list {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.breadcrumbs__link {
+  display: inline-block;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 300;
+  text-decoration: none;
+  color: rgba(236, 30, 121, 0.8);
+}
+
+.breadcrumbs__link--disabled {
+  color: rgba(34, 31, 31, 0.8);
+}
+
+.breadcrumbs__item::after {
+  content: "/";
+  display: inline-block;
+  font-size: 14px;
+  font-style: italic;
+  color: rgba(34, 31, 31, 0.8);
+  margin-right: 3px;
+}
+
+.breadcrumbs__item:last-child::after {
+  display: none;
+}
