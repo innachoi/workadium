@@ -30,7 +30,7 @@ body {
 
 .container {
   display: flex;
-  width: 1060px;
+  width: 1160px;
   margin: 0 auto;
 }
 
@@ -61,6 +61,7 @@ button {
 .sidebar {
   display: inline-block;
   width: 17%;
+  padding: 0 25px;
 }
 
 .page {
