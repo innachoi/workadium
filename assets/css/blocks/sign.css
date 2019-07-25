@@ -1,0 +1,16 @@
+.sign {
+  display: block;
+  flex: 1;
+  max-width: 264px;
+
+}
+
+.sign__text {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.loftschool-link {
+  color: #fff;
+  font-weight: 700;
+}

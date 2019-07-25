@@ -1,0 +1,12 @@
+.footer {
+  min-width: 1160px;
+  background: #27273e;
+  color: #fff;
+}
+
+.footer__container {
+  display: flex; 
+  min-height: 77px;
+  align-items: center;
+  justify-content: space-between;
+}

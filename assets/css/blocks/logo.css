@@ -1,0 +1,12 @@
+.logo {
+  width: 98px;
+  height: 51px;
+}
+
+.footer__pic {
+  display: inline-block;
+  /* margin-right: 300px; */
+  flex: 1;
+  text-align: right;
+
+}

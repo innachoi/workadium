@@ -1,0 +1,139 @@
+.form__container {
+  display: flex;
+  width: 1060px;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.form {
+  width: 70%;
+  background: #f5f5f5;
+  border-radius: 3px;
+  padding: 50px 8%;
+  margin-bottom: 40px;
+}
+
+.form__title {
+  font-size: 49px;
+  font-weight: bold;
+  margin-bottom: 18px;
+}
+
+.form__row {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.form__block-title {
+  font-size: 14px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+.form__block {
+  margin-right: 9px;
+  flex: 1;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.form__block:last-child {
+  margin-right: 0;
+}
+
+.form__input {
+  padding: 17px 9px;
+  background: #fff;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  outline: none;
+  border: 1px solid transparent;
+}
+
+.form__input:focus {
+  border: 1px solid #ec1e79;
+}
+
+.form__input--textarea {
+  resize: vertical;
+  height: 90px;
+}
+
+.form__question {
+  flex: 1;
+}
+
+.visuallyHidden {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  margin: 10px 0 0 7px;
+}
+
+.form__radio-text {
+  position: relative;
+  padding: 0 0 0 35px;
+  cursor: pointer;
+}
+
+.form__radio-text::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: -3px;
+  left: 0;
+  border: 1px solid #c9c9c9;
+  border-radius: 50%;
+  background: linear-gradient(90deg, #ededed, #fff);
+  transition: border 0.3s;
+}
+
+.form__radio-text::after {
+  content: "";
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 4px;
+  left: 7px;
+  border-radius: 50%;
+  background: #ec1e79;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.form__radio-input:checked + .form__radio-text::before {
+  border: 1px solid #ec1e79;
+  transition: 0.3s;
+}
+
+.form__radio-input:checked + .form__radio-text::after {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.form__button {
+  display: flex;
+  justify-content: center;
+  background: #27273e;
+  width: 139px;
+  height: 45px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.form__button:hover {
+  background: #ec1e79;
+  transition: 0.3s;
+}
+
+
+.form__btn {
+  font-size: 12px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 2.4px;
+  text-transform: uppercase;
+}

@@ -1,0 +1,17 @@
+.header {
+  background: #27273e;
+  color: #fff;
+  padding: 13px 0;
+}
+.header__container {
+  max-width: 11git60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.header__link {
+  display: inline-block;
+}
+

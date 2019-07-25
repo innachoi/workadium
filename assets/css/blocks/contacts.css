@@ -1,0 +1,25 @@
+.contacts {
+  display: inline-block;
+  text-align: right;
+}
+
+.contacts__phone {
+  color: #fff;
+  font-size: 21px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.contacts__schedule {
+  font-family: "Open Sans";
+  font-size: 14px;
+  font-weight: 700;
+  color: rgba(236, 30, 121, 0.7);
+  text-decoration: underline;
+  transition: color 0.3s;
+}
+
+.contacts__schedule:hover {
+  cursor: pointer;
+  color: rgba(93, 209, 248, 0.7);
+  transition: color 0.3s;
+}

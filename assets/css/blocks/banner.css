@@ -1,0 +1,12 @@
+.banner {
+  background: #27273e;
+  margin-bottom: 42px;
+}
+.banner__pic {
+  width: 1060px;
+}
+
+.banner__img {
+  display: block;
+  object-fit: cover;
+}

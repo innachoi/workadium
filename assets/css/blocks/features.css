@@ -1,0 +1,126 @@
+.features {
+  margin-bottom: 70px;
+}
+
+.features__main-title {
+  display: block;
+  margin: 0;
+  margin-bottom: 53px;
+  font-size: 49px;
+  font-weight: bold;
+  text-align: left;
+  line-height: 49px;
+}
+
+.features__content {
+  display: flex;
+  margin: 0;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+.features__item {
+  margin-right: 68px;
+}
+
+.feature {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  flex: 1;
+  border: 1px solid #e8e9ed;
+  padding: 30px 0;
+  margin-bottom: 20px;
+}
+
+.feature__main-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 21px;
+  text-transform: uppercase;
+  margin-bottom: 34px;
+}
+
+.feature__icon {
+  display: inline-block;
+  position: relative;
+  width: 72px;
+  height: 72px;
+  margin-bottom: 35px;
+  background-color: #27273e;
+  border-radius: 50%;
+}
+
+.feature__icon::before {
+  content: "";
+  position: absolute;
+  top: 20px;
+  left: 22px;
+  background: url(../../img/icons/features__icons_sprites.png) no-repeat;
+}
+
+.feature__icon--flower::before {
+  background-position: -137px -35px;
+  width: 35px;
+  height: 32px;
+}
+.feature__icon--star::before {
+  background-position: -36px -35px;
+  width: 35px;
+  height: 32px;
+}
+.features__icon--pallete::before {
+  background-position: -234px -35px;
+  width: 35px;
+  height: 32px;
+}
+
+.feature__title {
+  margin-bottom: 14px;
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 2.64px;
+}
+
+.feature__desc {
+  display: flex;
+  flex-flow: column;
+  text-align: center;
+}
+
+.feature__text {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+}
+
+.feature__text-area {
+  display: inline-block;
+  margin: 0;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.feature__text-list {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 30px;
+}
+
+.feature__text-list li {
+  margin-bottom: 8px;
+}
+
+.feature__text-list li:last-child {
+  margin-bottom: 0;
+}
+
+.feature__text-list li::before {
+  content: "•";
+  color: #ec1e79;
+  margin-right: 30px;
+}
