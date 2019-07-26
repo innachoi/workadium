@@ -23,10 +23,10 @@
 }
 
 .feature {
+  width: 85%;
   display: flex;
   flex-flow: column;
   align-items: center;
-  flex: 1;
   border: 1px solid #e8e9ed;
   padding: 30px 0;
   margin-bottom: 20px;

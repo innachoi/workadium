@@ -12,7 +12,7 @@
     <div class="wrapper__content">
       <header class="header">
           <div class="container header__container">
-            <a href="./index.html" class="link header__link"><img class="logo logo__header" src="assets/img/logo.svg" alt="Логотип Workadium" ></a>
+            <a href="./home.html" class="link header__link"><img class="logo logo__header" src="assets/img/logo.svg" alt="Логотип Workadium" ></a>
             <adress class="contacts">
               <a href="tel:+78000039210" class="contacts__phone">8 (800) 00-392-10</a>
               <div class="contacts__schedule">График работы</div>
@@ -22,7 +22,41 @@
       <div class="maincontent">
         <div class="container maincontent__container">
           <aside class="sidebar">
-              <nav class="menu">
+            <section class="cta--sidebar">
+              <div class="cta__container">
+                <p class="cta__text">
+                  Для наших новых клиентов мы предлагаем <strong class="cta__text-strong">скидку 50%</strong> на первый день! Приходите, чтобы лично оценить преимущества коворкинга «Воркадиум»!
+                </p>
+              </div>
+            </section>
+            <div class="social social--sidebar">
+              <h4 class="social__title">Наши социальные сети</h4>
+              <ul class="social__preview">
+                <li class="social__icon">
+                  <a href="https://vk.com" class="social__link social__pic social__pic--vk">
+                    <div class="social__link-img">
+                    </div>
+                  </a>
+                </li>
+                <li class="social__icon">
+                  <a href="https://ru-ru.facebook.com/" class="social__link social__pic social__pic--fb">
+                  </a>
+                </li>
+                <li class="social__icon">
+                  <a href="https://gmail.com" class="social__link social__pic social__pic--google">
+                  </a>
+                </li>
+                <li class="social__icon">
+                  <a href="https://twitter.com" class="social__link social__pic social__pic--twitter">
+                  </a>
+                </li>
+                <li class="social__icon">
+                  <a href="#" class="social__link social__pic social__pic--mail">
+                  </a>
+                </li>
+              </ul>
+            </div>
+              <!-- <nav class="menu">
                 <ul class="menu__list">
                   <li class="menu__item">
                     <a href="./index.html" class="menu__link menu__icon menu__icon--main">Главная</a>
@@ -34,10 +68,23 @@
                     <a href="./prices.html" class="menu__link menu__icon menu__icon--wallet">Тарифы</a>
                   </li>
                 </ul>
-              </nav>
+              </nav> -->
           </aside>
           <div class="page">
-            <nav class="breadcrumbs">
+            <nav class="menu--pink menu--horizontal">
+              <ul class="menu__list">
+                <li class="menu__item menu__item--main">
+                  <a href="./home.html" class="menu__link menu__icon menu__icon--main">Главная</a>
+                </li>
+                <li class="menu__item menu__item--comments active">
+                  <a href="#" class="menu__link menu__icon menu__icon--star">Отзывы</a>
+                </li>
+                <li class="menu__item menu__item--prices">
+                  <a href="./prices.html" class="menu__link menu__icon menu__icon--wallet">Тарифы</a>
+                </li>
+              </ul>
+            </nav>
+            <!-- <nav class="breadcrumbs">
               <ul class="breadcrumbs__list">
                 <li class="breadcrumbs__item">
                   <a href="./index.html" class="breadcrumbs__link">Главная</a>
@@ -46,7 +93,7 @@
                   <a href="#" class="breadcrumbs__link breadcrumbs__link--disabled">Отзывы</a>
                 </li>
               </ul>
-            </nav>
+            </nav> -->
             <main class="page__content">
               <section class="feeds comments">
                 <h1 class="feeds__main-title comments__title">Отзывы</h1>
@@ -123,54 +170,94 @@
                   </li>
                 </ul>
               </section>
+              <div class="pagination pagination--comments">
+                <div class="pagination__display">
+                  Страница 1 из 7
+                </div>
+                <div class="pagination__controls">
+                  <a href="#" class="pagination__arrow pagination__arrow--prev">
+                    <img src="./assets/img/icons/arrow_back.png" alt="" class="pagination__arrow-img">
+                  </a>
+                  <ul class="pagination__pages-list">
+                    <li class="pagination__pages-item">
+                      <a href="#" class="pagination__pages-link pagination__pages-link--active pagination__pages-link--active--comments">1</a>
+                    </li>
+                    <li class="pagination__pages-item">
+                      <a href="#" class="pagination__pages-link">2</a>
+                    </li>
+                    <li class="pagination__pages-item">
+                      <a href="#" class="pagination__pages-link">3</a>
+                    </li>
+                    <li class="pagination__pages-item">
+                      <a href="#" class="pagination__pages-link">4</a>
+                    </li>
+                    <li class="pagination__pages-item">
+                      <a href="#" class="pagination__pages-link">5</a>
+                    </li>
+                    <li class="pagination__pages-item">
+                      <a href="#" class="pagination__pages-link">6</a>
+                    </li>
+                    <li class="pagination__pages-item">
+                      <a href="#" class="pagination__pages-link">7</a>
+                    </li>
+                  </ul>
+                  <a href="#" class="pagination__arrow pagination__arrow--next">
+                    <img src="./assets/img/icons/arrow_forward.png" alt="" class="pagination__arrow-img">
+                  </a>
+                </div>
+              </div>
+              <section class="form__container">
+                <div class="form">
+                  <h3 class="form__title">
+                    Оставить отзыв
+                  </h3>
+                  <form action="" class="form__element">
+                    <div class="form__row">
+                      <label class="form__block">
+                        <div class="form__block-title">Ваше имя</div>
+                        <input placeholder="Андрей" type="text" name="" id="" class="form__input">
+                      </label>
+                      <label class="form__block">
+                        <div class="form__block-title">Ссылка на профиль VK</div>
+                        <input placeholder="vk.com/example" type="text" name="" id="" class="form__input">
+                      </label>
+                    </div>
+                    <div class="form__row">
+                      <label class="form__block">
+                        <div class="form__block-title">Текст отзыва</div>
+                        <textarea placeholder="Мне понравилось" name="" class="form__input form__input--textarea"></textarea>
+                      </label>
+                    </div>
+                    <div class="form__row">
+                      <div class="form__question">
+                        <div class="form__block-title">Отображать фото в отзыве?</div>
+                        <label class="form__block form__radio">
+                          <input type="radio" checked name="photo" id="" class="form__radio-input visuallyHidden">
+                          <span class="form__radio-text">Да</span>
+                        </label>
+                        <label class="form__block form__radio">
+                          <input type="radio" name="photo" id="" class="form__radio-input visuallyHidden">
+                          <span class="form__radio-text">Нет</span>
+                        </label>
+                      </div>
+                      <div class="form__button">
+                        <button type="submit" class="form__btn">Отправить</button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </section>
             </main>
-            <div class="pagination">
-              <div class="pagination__display">
-                Страница 1 из 7
-              </div>
-              <div class="pagination__controls">
-                <a href="#" class="pagination__arrow pagination__arrow--prev">
-                  <img src="./assets/img/icons/arrow_back.png" alt="" class="pagination__arrow-img">
-                </a>
-                <ul class="pagination__pages-list">
-                  <li class="pagination__pages-item">
-                    <a href="#" class="pagination__pages-link pagination__pages-link--active pagination__pages-link--active--comments">1</a>
-                  </li>
-                  <li class="pagination__pages-item">
-                    <a href="#" class="pagination__pages-link">2</a>
-                  </li>
-                  <li class="pagination__pages-item">
-                    <a href="#" class="pagination__pages-link">3</a>
-                  </li>
-                  <li class="pagination__pages-item">
-                    <a href="#" class="pagination__pages-link">4</a>
-                  </li>
-                  <li class="pagination__pages-item">
-                    <a href="#" class="pagination__pages-link">5</a>
-                  </li>
-                  <li class="pagination__pages-item">
-                    <a href="#" class="pagination__pages-link">6</a>
-                  </li>
-                  <li class="pagination__pages-item">
-                    <a href="#" class="pagination__pages-link">7</a>
-                  </li>
-                </ul>
-                <a href="#" class="pagination__arrow pagination__arrow--next">
-                  <img src="./assets/img/icons/arrow_forward.png" alt="" class="pagination__arrow-img">
-                </a>
-              </div>
-            </div>
-        
           </div>
         </div>
-        <section class="cta">
+        <!-- <section class="cta">
           <div class="cta__container">
             <p class="cta__text">
               Для наших новых клиентов мы предлагаем <strong class="cta__text-strong">скидку 50%</strong> на первый день! Приходите, чтобы лично оценить преимущества коворкинга «Воркадиум»!
             </p>
           </div>
-        </section>
-        <section class="form__container">
+        </section> -->
+        <!-- <section class="form__container">
           <div class="form">
             <h3 class="form__title">
               Оставить отзыв
@@ -210,7 +297,7 @@
               </div>
             </form>
           </div>
-        </section>
+        </section> -->
       </div>
     </div>
     <footer class="footer">
@@ -223,7 +310,7 @@
         <div class="footer__pic">
           <img class="logo logo-footer" src="assets/img/logo.svg" alt="">
         </div>
-        <div class="social">
+        <!-- <div class="social">
           <h4 class="social__title">Наши социальные сети</h4>
           <ul class="social__preview">
             <li class="social__icon">
@@ -249,7 +336,7 @@
               </a>
             </li>
           </ul>
-        </div>
+        </div> -->
       </div>
     </footer>
   </div>

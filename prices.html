@@ -13,7 +13,7 @@
     <div class="wrapper__content">
       <header class="header">
         <div class="container header__container">
-          <a href="./index.html" class="link header__link"><img class="logo logo__header" src="assets/img/logo.svg" alt="Логотип Workadium" ></a>
+          <a href="./home.html" class="link header__link"><img class="logo logo__header" src="assets/img/logo.svg" alt="Логотип Workadium" ></a>
           <adress class="contacts">
             <a href="tel:+78000039210" class="contacts__phone">8 (800) 00-392-10</a>
             <div class="contacts__schedule">График работы</div>
@@ -23,10 +23,61 @@
       <div class="maincontent">
         <div class="container maincontent__container">
           <aside class="sidebar">
-            <nav class="menu">
+            <section class="partners--sidebar">
+              <h3 class="partners__title--sidebar">Партнёры</h3>
+              <div class="partners__list--sidebar">
+                <div class="partners__pic">
+                  <img src="./assets/img/partners/logo-1.png" alt="Винтер канцелярия" class="partners__img">
+                </div>
+                <div class="partners__pic">
+                  <img src="./assets/img/partners/logo-4.png" alt="Тишкин" class="partners__img">
+                </div>
+                <div class="partners__pic">
+                  <img src="./assets/img/partners/logo-2.png" alt="Дроп" class="partners__img">
+                </div>
+                <div class="partners__pic">
+                  <img src="./assets/img/partners/logo-3.png" alt="Библиотека Анна Ахтматова" class="partners__img">
+                </div>
+                <div class="partners__pic">
+                  <img src="./assets/img/partners/logo-5.png" alt="Пуфок" class="partners__img">
+                </div>
+                <div class="partners__pic">
+                  <img src="./assets/img/partners/logo-6.png" alt="Авантаж" class="partners__img">
+                </div>
+              </div>
+            </section>
+            <div class="social social--sidebar">
+              <h4 class="social__title">Наши социальные сети</h4>
+              <ul class="social__preview">
+                <li class="social__icon">
+                  <a href="https://vk.com" class="social__link social__pic social__pic--vk">
+                    <div class="social__link-img">
+                    </div>
+                  </a>
+                </li>
+                <li class="social__icon">
+                  <a href="https://ru-ru.facebook.com/" class="social__link social__pic social__pic--fb">
+                  </a>
+                </li>
+                <li class="social__icon">
+                  <a href="https://gmail.com" class="social__link social__pic social__pic--google">
+                  </a>
+                </li>
+                <li class="social__icon">
+                  <a href="https://twitter.com" class="social__link social__pic social__pic--twitter">
+                  </a>
+                </li>
+                <li class="social__icon">
+                  <a href="#" class="social__link social__pic social__pic--mail">
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <!-- Old menu -->
+            <!-- <nav class="menu">
               <ul class="menu__list">
                 <li class="menu__item">
-                  <a href="./index.html" class="menu__link menu__icon menu__icon--main">Главная</a>
+                  <a href="./home.html" class="menu__link menu__icon menu__icon--main">Главная</a>
                 </li>
                 <li class="menu__item">
                   <a href="./comments.html" class="menu__link menu__icon menu__icon--star">Отзывы</a>
@@ -35,19 +86,34 @@
                   <a href="#" class="menu__link menu__icon menu__icon--wallet">Тарифы</a>
                 </li>
               </ul>
-            </nav>
+            </nav> -->
+
           </aside>
           <div class="page">
-            <nav class="breadcrumbs">
+            <nav class="menu--pink menu--horizontal">
+              <ul class="menu__list">
+                <li class="menu__item menu__item--main">
+                  <a href="./home.html" class="menu__link menu__icon menu__icon--main">Главная</a>
+                </li>
+                <li class="menu__item menu__item--comments">
+                  <a href="#" class="menu__link menu__icon menu__icon--star">Отзывы</a>
+                </li>
+                <li class="menu__item menu__item--prices active">
+                  <a href="./prices.html" class="menu__link menu__icon menu__icon--wallet">Тарифы</a>
+                </li>
+              </ul>
+            </nav>
+            <!-- <nav class="breadcrumbs">
               <ul class="breadcrumbs__list">
                 <li class="breadcrumbs__item">
-                  <a href="./index.html" class="breadcrumbs__link">Главная</a>
+                  <a href="./home.html" class="breadcrumbs__link">Главная</a>
                 </li>
                 <li class="breadcrumbs__item">
                   <a href="#" class="breadcrumbs__link breadcrumbs__link--disabled">Тарифы</a>
                 </li>
               </ul>
-            </nav>
+            </nav> -->
+            
             <main class="page-content">
               <section class="prices price">
                 <h1 class="prices__title">Тарифы</h1>
@@ -138,7 +204,8 @@
                   </li>
                 </ul>
               </section>
-              <section class="partners">
+
+              <!-- <section class="partners">
                 <h2 class="partners__title">Партнёры</h2>
                 <div class="partners__list">
                   <div class="partners__pic">
@@ -160,7 +227,8 @@
                     <img src="./assets/img/partners/logo-6.png" alt="Авантаж" class="partners__img">
                   </div>
                 </div>
-              </section>
+              </section> -->
+
             </main>
           </div>
         </div>
@@ -177,7 +245,8 @@
           <div class="footer__pic">
             <img class="logo logo-footer" src="assets/img/logo.svg" alt="">
           </div>
-          <div class="social">
+
+          <!-- <div class="social">
             <h4 class="social__title">Наши социальные сети</h4>
             <ul class="social__preview">
               <li class="social__icon">
@@ -203,7 +272,8 @@
                 </a>
               </li>
             </ul>
-          </div>    
+          </div>     -->
+        
         </div>
     </footer>
   </div>

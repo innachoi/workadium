@@ -53,21 +53,27 @@ button {
   margin-top: 43px;
 } */
 
+.maincontent__container {
+  padding: 10px 0 0 0;
+}
+
 .sidebar, .page {
   display: inline-block;
   vertical-align: top;
 }
 
 .sidebar {
-  display: inline-block;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
   width: 25%;
-  padding: 0 25px;
 }
 
 .page {
   display: flex;
   flex-flow: column;
   width: 75%;
+  padding: 20px 0 0;
 }
 
 img {

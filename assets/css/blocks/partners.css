@@ -20,8 +20,8 @@
 }
 
 .partners__pic {
-  width: 33%;
-  margin-bottom: 53px;
+  flex: 1;
+  margin-bottom: 34px;
 }
 
 .partners__img {
@@ -32,4 +32,32 @@
   cursor: pointer;
   filter: none;
   transition: filter 0.3s;
+}
+
+/* Partners--sidebar */
+
+.partners--sidebar {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  padding: 10px 70px;
+  border: 1px solid #e8e9ed;
+  margin: 25px 0;
+}
+
+.partners__title--sidebar {
+  display: block;
+  margin: 0;
+  margin-bottom: 52px;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+
+.partners__list--sidebar {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-between;
 }

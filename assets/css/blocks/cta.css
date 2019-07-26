@@ -5,17 +5,25 @@
   margin-bottom: 36px;
 }
 
+.cta--sidebar {
+  background: #27273e;
+  display: flex;
+  justify-content: center;
+  margin: 36px 10px;
+}
+
 .cta__container {
-  max-width: 1060px;
+  width: 90%;
   display: flex;
   align-items: center;
-  padding: 48px 215px;
+  padding: 10px 2px;
   background-image: url(../../img/pattern_cta.png);
   background-repeat: no-repeat;
 }
 
 .cta__text {
   display: inline-block;
+  text-align: center;
   color: #fff;
   font-size: 18px;
   line-height: 30px;

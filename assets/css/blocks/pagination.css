@@ -4,8 +4,13 @@
   font-family: "roboto";
   font-size: 14px;
   margin: 0 auto;
-  margin-bottom: 72px;
+  margin-bottom: 48px;
 }
+
+.pagination--comments {
+  justify-content: center;
+}
+
 .pagination__display {
   display: inline-block;
   font-weight: 300;
