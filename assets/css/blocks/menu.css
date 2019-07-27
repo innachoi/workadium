@@ -145,7 +145,7 @@
   position: absolute;
   top: -2px;
   left: -33px;
-  background: url(../../img/icons/sprites_menu--header.png) no-repeat;
+  background: url(../../img/icons/menu-icons_sprites.png) no-repeat;
 } 
 
 .menu--pink .menu__icon--main::before {
