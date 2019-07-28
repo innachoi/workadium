@@ -61,7 +61,7 @@
   position: relative;
 }
 
-.menu__icon::before, .menu__icon::after {
+.menu--white .menu__icon::before {
   content: "";
   position: absolute;
   top: -2px;
@@ -69,37 +69,45 @@
   background: url(../../img/icons/sprites_menu--header.png) no-repeat;
 }
 
-.menu__icon--main::before {
-  background-position: -20px -20px;
-  width: 20px;
-  height: 18px;
+.menu--white .menu__icon::after {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -33px;
+  background: url(../../img/icons/sprites_menu--header.png) no-repeat;
 }
 
-.menu__icon--star::before {
-  background-position: -252px -20px;
-  width: 20px;
-  height: 18px;
-}
-
-.menu__icon--wallet::before {
-  background-position: -134px -20px;
-  width: 20px;
-  height: 18px;
-}
-
-.menu__icon--main::after {
+.menu--white .menu__icon--main::before {
   background-position: -77px -20px;
   width: 20px;
   height: 18px;
 }
 
-.menu__icon--star::after {
+.menu--white .menu__icon--star::before {
+  background-position: -252px -20px;
+  width: 20px;
+  height: 18px;
+}
+
+.menu--white .menu__icon--wallet::before {
+  background-position: -134px -20px;
+  width: 20px;
+  height: 18px;
+}
+
+.menu--white .menu__icon--main::after {
+  background-position: -20px -20px;
+  width: 20px;
+  height: 18px;
+}
+
+.menu--white .menu__icon--star::after {
   background-position: -312px -20px;
   width: 20px;
   height: 18px;
 }
 
-.menu__icon--wallet::after {
+.menu--white .menu__icon--wallet::after {
   background-position: -193px -20px;
   width: 20px;
   height: 18px;
@@ -140,7 +148,15 @@
 }
 
 
-.menu--pink .menu__icon::before, .menu__icon::after {
+.menu--pink .menu__icon::before {
+  content: "";
+  position: absolute;
+  top: -2px;
+  left: -33px;
+  background: url(../../img/icons/menu-icons_sprites.png) no-repeat;
+} 
+
+.menu--pink .menu__icon::after {
   content: "";
   position: absolute;
   top: -2px;

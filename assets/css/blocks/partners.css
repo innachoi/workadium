@@ -40,9 +40,9 @@
   display: flex;
   flex-flow: column;
   align-items: center;
-  padding: 10px 70px;
+  padding: 10px 62px;
   border: 1px solid #e8e9ed;
-  margin: 25px 0;
+  margin: 25px 20px;
 }
 
 .partners__title--sidebar {
