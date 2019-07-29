@@ -1,5 +1,5 @@
 .prices {
-  margin-bottom: 5px;
+  margin: -7px 0;
 }
 
 .prices__title {
@@ -16,7 +16,7 @@
   display: flex;
   flex-flow: wrap;
   justify-content: space-between;
-  padding: 0;
+  padding: 0 3px;
   margin: 0;
 }
 
@@ -24,7 +24,7 @@
   width: 32%;
   display: inline-block;
   text-align: center;
-  margin-bottom:45px;
+  margin-bottom: 52px;
 }
 
 .price__title {
@@ -50,11 +50,11 @@
 .price__pic {
   display: inline-block;
   position: relative;
-  max-width: 100%;
-  max-height: 40%;
+  max-width: 98%;
+  max-height: 41%;
   border-radius: 3px;
   overflow: hidden;
-  margin-bottom: 20px;
+  margin-bottom: 26px;
 }
 
 .price__pic::before {
