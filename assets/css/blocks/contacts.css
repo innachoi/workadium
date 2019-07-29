@@ -1,17 +1,28 @@
 .contacts {
   display: inline-block;
-  text-align: right;
   position: relative;
+  text-align: right;
 }
 
 .contacts__phone {
+  display: block;
   color: #fff;
   font-size: 21px;
   font-weight: bold;
   text-decoration: none;
 }
+
+.contacts__drop-menu {
+  display: inline-block;
+  position: relative;
+}
+
+.contacts__drop-menu:hover .contacts__schedule {
+  color: rgba(93, 209, 248, 0.7);
+  transition: color 0.3s;
+}
+
 .contacts__schedule {
-  display: block;
   font-family: "Open Sans";
   font-size: 14px;
   font-weight: 700;
@@ -20,29 +31,31 @@
   transition: color 0.3s;
 }
 
-.contacts__schedule:hover {
-  cursor: pointer;
-  color: rgba(93, 209, 248, 0.7);
-  transition: color 0.3s;
-}
-
 .contacts__timetable {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  display: block;
   position: absolute;
-  width: 83%;
-  height: 185%;
-  top: 65px;
-  left: 35px;
+  width: 141%;
+  height: 432%;
+  top: 41px;
+  left: -47px;
   background: linear-gradient(to top, #ffffff, #ffffff);
   box-shadow: 2.5px 4.3px 5px 0 rgba(0, 0, 0, 0.2);
-  padding: 0 11px;
+  padding: 0 8px;
   opacity: 0;
+}
+
+.contacts__timetable::before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 40px;
+  top: -39px;
+  width: 100%;
 }
 
 .contacts__text {
   display: inline-block;
+  position: center;
   text-align: left;
   font-size: 14px;
   font-weight: 300;
@@ -55,7 +68,7 @@
   color: #ec1e79;
 }
 
-.contacts__schedule:hover + .contacts__timetable {
+.contacts__drop-menu:hover .contacts__timetable {
   opacity: 1;
   animation: fadeInDown .7s;
 }
