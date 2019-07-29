@@ -19,7 +19,7 @@
 }
 
 .feeds.news .news__title {
-  margin-bottom: 74px;
+  margin-bottom: 64px;
 }
 
 .feeds.comments .comments__title {
@@ -39,8 +39,8 @@
 .feeds__pic {
   display: block;
   margin-right: 20px;
-  width: 160px;
-  height: 160px;
+  width: 170px;
+  height: 170px;
   border-radius: 50%;
   background: #f5f5f5;
   background-image: url(../../img/logo_hue.png);
